@@ -1,0 +1,191 @@
+/* Table of Contents
+- Link Styles
+- Other sitewide styles
+- Actions
+- Layout
+- LOGO
+- TOP NAV
+- NAVBAR
+- SUBNAV
+*/
+/* =Layout */
+
+body > nav {
+  -webkit-font-smoothing: antialiased;
+  background-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  color: rgb(34, 34, 34);
+  display: block;
+  font-family: 'Apercu Bold', Arial, sans-serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: bold;
+  height: 211px;
+  line-height: 16px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  max-width: 1440px;
+  position: relative;
+  top: 0px;
+  width: 1440px;
+}
+
+body > nav > div.expanded {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  color: rgb(34, 34, 34);
+  display: block;
+  font-family: 'Apercu Bold', Arial, sans-serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: bold;
+  height: 146px;
+  line-height: 16px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  position: relative;
+  width: 1440px;
+  z-index: 1;
+}
+
+body > nav > div.expanded > div {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  color: rgb(34, 34, 34);
+  display: block;
+  font-family: 'Apercu Bold', Arial, sans-serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: bold;
+  height: 146px;
+  line-height: 16px;
+  max-width: 1440px;
+  position: relative;
+  width: 1440px;
+}
+
+body > nav > div.expanded > div > a.logo_wrap {
+  -webkit-font-smoothing: antialiased;
+  background-color: rgba(0, 0, 0, 0);
+  box-sizing: border-box;
+  color: rgb(34, 34, 34);
+  cursor: auto;
+  display: inline-block;
+  font-family: 'Apercu Bold', Arial, sans-serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: bold;
+  height: 141px;
+  line-height: 16px;
+  padding-bottom: 30px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 260px;
+}
+
+body > nav > div.expanded > div > a.logo_wrap > div {
+  -webkit-font-smoothing: antialiased;
+  -webkit-transition-delay: 0s;
+  -webkit-transition-duration: 0.1s;
+  -webkit-transition-property: width;
+  -webkit-transition-timing-function: ease-in;
+  box-sizing: border-box;
+  color: rgb(34, 34, 34);
+  cursor: auto;
+  display: block;
+  font-family: 'Apercu Bold', Arial, sans-serif;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: bold;
+  height: 81px;
+  line-height: 160px;
+  text-transform: uppercase;
+  transition-delay: 0s;
+  transition-duration: 0.1s;
+  transition-property: width;
+  transition-timing-function: ease-in;
+  width: 260px;
+}
+
+body > nav > div.main_nav {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  color: rgb(34, 34, 34);
+  display: block;
+  font-family: 'Apercu Bold', Arial, sans-serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: bold;
+  height: 65px;
+  line-height: 16px;
+  overflow-x: visible;
+  overflow-y: visible;
+  position: relative;
+  text-align: center;
+  width: 1440px;
+  z-index: 9999;
+}
+
+body > nav > div.main_nav > div.nav_inner_wrap {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  color: rgb(34, 34, 34);
+  display: block;
+  font-family: 'Apercu Bold', Arial, sans-serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: bold;
+  height: 65px;
+  line-height: 16px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  text-align: center;
+  width: 1440px;
+}
+
+body > nav > div.main_nav > div.nav_inner_wrap > div.verticals_wrap {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  color: rgb(34, 34, 34);
+  display: block;
+  float: left;
+  font-family: 'Apercu Bold', Arial, sans-serif;
+  font-size: 13.125px;
+  font-style: normal;
+  font-weight: bold;
+  height: 65px;
+  line-height: 21px;
+  text-align: center;
+  width: 662.390625px;
+}
+
+body > nav > div.main_nav > div.nav_inner_wrap > div.links_wrap.ui_control_element {
+  -webkit-font-smoothing: antialiased;
+  -webkit-transition-delay: 0s;
+  -webkit-transition-duration: 0.05s;
+  -webkit-transition-property: width;
+  -webkit-transition-timing-function: ease;
+  box-sizing: border-box;
+  color: rgb(34, 34, 34);
+  display: block;
+  float: left;
+  font-family: 'Apercu Bold', Arial, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: bold;
+  height: 65px;
+  letter-spacing: 0.349999994039536px;
+  line-height: 22.3999996185303px;
+  padding-right: 65px;
+  text-align: center;
+  transition-delay: 0s;
+  transition-duration: 0.05s;
+  transition-property: width;
+  transition-timing-function: ease;
+  width: 777.59375px;
+}

@@ -1,0 +1,535 @@
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+- Local Font Declarations
+- Base Styles
+- Structure
+- Links
+- Buttons
+- Forms
+- Custom Layout
+*/
+
+/* Local font declarations */
+@font-face {
+    font-family: 'open_sans';
+    src: url('fonts/opensans-light-webfont.eot');
+    src: url('fonts/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans-light-webfont.woff2') format('woff2'),
+         url('fonts/opensans-light-webfont.woff') format('woff'),
+         url('fonts/opensans-light-webfont.ttf') format('truetype'),
+         url('fonts/opensans-light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sans';
+    src: url('fonts/opensans-semibold-webfont.eot');
+    src: url('fonts/opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans-semibold-webfont.woff2') format('woff2'),
+         url('fonts/opensans-semibold-webfont.woff') format('woff'),
+         url('fonts/opensans-semibold-webfont.ttf') format('truetype'),
+         url('fonts/opensans-semibold-webfont.svg#open_sanssemibold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Base Styles */
+html {
+  font-family:'open_sans',sans-serif;
+  -ms-text-size-adjust:100%;
+  -webkit-text-size-adjust:100%;
+  box-sizing:border-box;
+  min-height:720px;
+  max-width:1440px;
+  font-size:62.5%
+}
+
+body {
+  font-size:1.5em;
+  font-weight:400;
+  margin:0;
+  background-color:#444;
+  color:#222;
+  position:relative
+}
+
+h2 {
+  margin-top:0;
+  margin-bottom:2rem;
+  font-weight:300;
+  font-size:4.2rem;
+  line-height:1.25;
+  letter-spacing:-.1rem
+}
+
+p {
+  margin:0;
+  margin-bottom:2.5rem
+}
+
+nav {
+  display:block
+}
+
+footer {
+  display:block;
+  box-sizing:border-box;
+  position:absolute;
+  bottom:10px;
+  left:0;
+  width:100%;
+  height:10px;
+  padding-top:2rem;
+  padding-left:2rem;
+  padding-right:2rem
+}
+
+/* Structure */
+.container {
+  position:relative;
+  width:inherit;
+  padding:0;
+  box-sizing:border-box;
+  transition:all 1.5s ease
+}
+
+.container:after {
+  content:"";
+  display:table;
+  clear:both
+}
+
+/* For devices larger than 400px */
+@media (min-width: 400px) {
+  .container {
+    width:100%;
+    padding:0
+  }
+}
+
+/* Links */
+a {
+  background-color:transparent;
+  color:#1EAEDB
+}
+
+a:hover {
+  color:#0FA0CE
+}
+
+/* Images */
+img {
+  border:0
+}
+
+/* Forms */
+form {
+  margin-bottom:2.5rem
+}
+
+input {
+  color:inherit;
+  font:inherit;
+  margin:0;
+  margin-bottom:1.5rem;
+  line-height:normal
+}
+
+input[type="email"],input[type="text"] {
+  height:38px;
+  padding:6px 10px;
+  background-color:#fff;
+  border:1px solid #D1D1D1;
+  border-radius:4px;
+  box-shadow:none;
+  box-sizing:border-box;
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  appearance:none
+}
+
+input[type="email"]:focus,input[type="text"]:focus {
+  border:1px solid #33C3F0;
+  outline:0
+}
+
+input[type="submit"] {
+  -webkit-appearance:button;
+  -moz-appearance:button;
+  cursor:pointer
+}
+
+button::-moz-focus-inner,input::-moz-focus-inner {
+  border:0;
+  padding:0
+}
+
+/* Buttons */
+.button,input[type="submit"] {
+  display:inline-block;
+  height:38px;
+  padding:0 30px;
+  margin-bottom:1rem;
+  color:#555;
+  text-align:center;
+  font-size:11px;
+  font-weight:600;
+  line-height:38px;
+  letter-spacing:.1rem;
+  text-transform:uppercase;
+  text-decoration:none;
+  white-space:nowrap;
+  background-color:transparent;
+  border-radius:4px;
+  border:1px solid #bbb;
+  cursor:pointer;
+  box-sizing:border-box
+}
+
+.button:hover,input[type="submit"]:hover,.button:focus,input[type="submit"]:focus {
+  color:#333;
+  border-color:#888;
+  outline:0
+}
+
+/* Custom Layout */
+.full {
+  background-color:#fff;
+  width:100%;
+  position:relative;
+  top:0;
+  margin:0;
+  font-weight:500;
+  font-style:normal;
+  font-size:1rem
+}
+
+/* Navigation */
+.title_bar {
+  color:#000;
+  display:block;
+  height:12rem;
+  position:relative;
+  width:97.5%;
+  background-color:#000;
+  padding-left:2.5%
+}
+
+.title_bar a {
+  font-size:9rem
+}
+
+.full_name {
+  display:block;
+  width:100%;
+  height:100%;
+  background:url(../img/msharris.svg) no-repeat;
+  background-size:11em 1.4em
+}
+
+.main_nav {
+  display:block;
+  font-style:normal;
+  height:4.5rem;
+  overflow-x:visible;
+  overflow-y:visible;
+  width:100%;
+  z-index:9999;
+  border-top:1px solid #fff;
+  border-bottom:1px solid #fff;
+  background-color:#000;
+  transition:all 1.5s ease
+}
+
+.links {
+  list-style:none;
+  overflow:hidden;
+  display:inline-block;
+  width:15%;
+  height:100%;
+  border-right:1px solid #fff;
+  text-align:center
+}
+
+.links a {
+  color:#fff;
+  text-decoration:none;
+  font-size:3rem
+}
+
+.links a:hover {
+  color:#0FA0CE
+}
+
+.links_right {
+  list-style:none;
+  overflow:hidden;
+  width:10%;
+  height:100%;
+  text-align:center;
+  float:right;
+  padding-top:.3rem
+}
+
+.links_right a {
+  color:#fff;
+  text-decoration:none;
+  font-size:2.75rem
+}
+
+.links_right a:hover {
+  color:#cddc39
+}
+
+/* Body */
+.main_body {
+  color:#fff;
+  width:95%;
+  margin:2.5em;
+  background-color:#000;
+  display:inline-block;
+  height:80%;
+  transition:all 1.5s ease
+}
+
+.body_text {
+  width:20%;
+  padding:5rem 5rem 0 6.75rem;
+  float:left;
+  overflow-y:auto;
+  font-size:1.5rem;
+  text-align:justify
+}
+
+.about_text {
+  width:90%;
+  padding:5%;
+  overflow-y:auto;
+  font-size:1vw;
+  text-align:justify
+}
+
+.body_image {
+  float:right;
+  width:70%;
+  height:100%
+}
+
+.music_body {
+  color:#000;
+  width:95%;
+  margin:2.5em;
+  background-color:#fff;
+  display:inline-block;
+  transition:all 1.5s ease
+}
+
+.soundcloud {
+  width:90%;
+  padding:5%;
+  overflow-y:auto;
+  font-size:1vw;
+  text-align:justify
+}
+
+/* Footer */
+.social_svg {
+  position: relative;
+  left:100rem;
+  margin:0;
+  padding:1rem 0 3rem 3rem;
+  width:3%
+}
+
+.copyright {
+  position: relative;
+  width: 50%;
+}
+
+.contact {
+  position: relative;
+  left:100rem;
+  width: 50%;
+}
+
+/* MailChimp Sign-up Form */
+.signup_container {
+  width:60%;
+  margin:10rem auto;
+  padding:0
+}
+
+#mc_embed_signup form {
+  display:block;
+  position:relative;
+  text-align:left;
+  margin:1rem;
+  padding:1rem 1rem 2rem;
+  color:#000;
+  background-color:#fff;
+  overflow:hidden;
+  border:solid 2px #fff
+}
+
+#mc_embed_header {
+  font-weight:500;
+  padding:0;
+  margin:15px 0;
+  font-size:2em
+}
+
+#mc_embed_signup input {
+  border:none;
+  border-radius:0;
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  background:#444;
+  color:#fff;
+  height:58px;
+  margin-bottom:10px;
+  padding-left:20px
+}
+
+#mc_embed_signup input:focus {
+  border-color:#333
+}
+
+#mc_embed_signup .button {
+  display:block;
+  width:200px;
+  margin:1rem auto 3rem;
+  font-weight:700;
+  font-style:normal;
+  text-transform:uppercase;
+  clear:both;
+  padding:0;
+  background-color:#777;
+  -webkit-font-smoothing:antialiased;
+  -webkit-appearance:button;
+  -moz-appearance:button;
+  cursor:pointer
+}
+
+#mc_embed_signup .button:hover {
+  background-color:#444
+}
+
+#mc_embed_signup .mc-field-group {
+  clear:left;
+  position:relative;
+  width:100%;
+  padding-bottom:3%;
+  min-height:50px
+}
+
+#mc_embed_signup .mc-field-group input {
+  display:block;
+  width:100%;
+  padding:8px 0;
+  text-indent:2%
+}
+
+#mc_embed_signup .clear {
+  clear:both
+}
+
+#mce-responses {
+  float:left;
+  top:-1.4em;
+  padding:0 .5em;
+  overflow:hidden;
+  width:90%;
+  margin:0 5%;
+  clear:both
+}
+
+#mc_embed_signup div.response {
+  margin:1em 0;
+  padding:1em .5em .5em 0;
+  font-weight:700;
+  float:left;
+  top:-1.5em;
+  z-index:1;
+  width:80%
+}
+
+#mce-error-response {
+  display:none
+}
+
+#mce-success-response {
+  color:#cddc39;
+  display:none
+}
+
+#mc-embedded-subscribe {
+  clear:both;
+  width:auto;
+  display:block;
+  margin:1em 0 1em 5%
+}
+
+#mc_embed_signup {
+  background:#fff;
+  clear:left
+}
+
+/* MailChimp Footer Sign-up Form */
+.footer_signup {
+  width:45%;
+  margin:1rem auto 2rem
+}
+
+.footer_signup #mc_embed_signup form {
+  display:block;
+  position:relative;
+  text-align:left;
+  margin:1rem;
+  padding:1.5rem 1rem 2rem;
+  color:#000;
+  background-color:#fff;
+  overflow:hidden;
+  border:solid 2px #fff
+}
+
+.footer_signup #mc_embed_signup input {
+  border:none;
+  border-radius:0;
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  background:#444;
+  color:#fff;
+  height:5rem;
+  margin:0 auto;
+  padding:0
+}
+
+.footer_signup #mc_embed_signup .button {
+  display:block;
+  width:20rem;
+  margin:0 auto;
+  font-weight:700;
+  font-style:normal;
+  text-transform:uppercase;
+  clear:both;
+  padding:0;
+  background-color:#777;
+  -webkit-font-smoothing:antialiased;
+  -webkit-appearance:button;
+  -moz-appearance:button;
+  cursor:pointer
+}
+
+@media screen and (max-width: 550px) {
+.footer_signup #mc_embed_signup .button {
+  width:80%
+}
+}
+
+.footer_signup #mc_embed_signup .mc-field-group {
+  clear:left;
+  position:relative;
+  width:100%;
+  min-height:50px
+}

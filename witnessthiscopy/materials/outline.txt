@@ -1,0 +1,1367 @@
+#flick-css {
+}
+
+#mailchimpSF_main_css-css {
+}
+
+#tw-bootstrap-css {
+}
+
+#the-bootstrap-css {
+}
+
+#genericons-css {
+}
+
+#jetpack_css-css {
+}
+
+#custom-background-css {
+}
+
+#fb-root {
+}
+
+#navbar-mobile {
+}
+
+#menu-mainmenu {
+}
+
+#menu-item-5399 {
+}
+
+#menu-item-5399 > a {
+}
+
+#menu-item-5404 {
+}
+
+#menu-item-5404 > a {
+}
+
+#menu-item-5632 {
+}
+
+#menu-item-5632 > a {
+}
+
+#menu-item-5398 {
+}
+
+#menu-item-5398 > a {
+}
+
+#menu-item-5403 {
+}
+
+#menu-item-5403 > a {
+}
+
+#menu-item-5401 {
+}
+
+#menu-item-5401 > a {
+}
+
+#menu-item-5438 {
+}
+
+#menu-item-5438 > a {
+}
+
+#menu-mainmenuright {
+}
+
+#menu-item-20519 {
+}
+
+#menu-item-20519 > a {
+}
+
+#menu-item-20138 {
+}
+
+#menu-item-20138 > a {
+}
+
+#menu-item-20145 {
+}
+
+#menu-item-20145 > a {
+}
+
+#menu-item-20146 {
+}
+
+#menu-item-20146 > a {
+}
+
+#page {
+}
+
+#access {
+}
+
+#menu-socialmenu {
+}
+
+#menu-item-20148 {
+}
+
+#menu-item-20148 > a {
+}
+
+#menu-item-20149 {
+}
+
+#menu-item-20149 > a {
+}
+
+#menu-item-20150 {
+}
+
+#menu-item-20150 > a {
+}
+
+#menu-item-20152 {
+}
+
+#menu-item-20152 > a {
+}
+
+#menu-item-20153 {
+}
+
+#menu-item-20153 > a {
+}
+
+#menu-item-25155 {
+}
+
+#menu-item-25155 > a {
+}
+
+#header-logo {
+}
+
+#header-logo > a {
+}
+
+#home-nav-middle {
+}
+
+#menu-mainmenu-1 {
+}
+
+#menu-mainmenuright-1 {
+}
+
+#primary {
+}
+
+#content {
+}
+
+#post-24560 {
+}
+
+#nav-single {
+}
+
+#secondary {
+}
+
+#mc-embedded-subscribe-form {
+}
+
+#mc-embedded-subscribe-form > h4 {
+}
+
+#mc-embedded-subscribe-form > label {
+}
+
+#mc_embed_signup_scroll {
+}
+
+#mc_embed_signup_scroll > div {
+  position: absolute;
+  left: -5000px;
+}
+
+#mce-EMAIL {
+}
+
+#mc-embedded-subscribe {
+}
+
+#footer {
+}
+
+#nav-search-cont {
+  display: none;
+}
+
+#searchform {
+}
+
+#s {
+}
+
+#searchsubmit {
+}
+
+.navmenu {
+}
+
+.navmenu-default {
+}
+
+.navmenu-fixed-left {
+}
+
+.offcanvas {
+}
+
+.canvas-mobile-back {
+}
+
+.menu-mainmenu-container {
+}
+
+.nav {
+}
+
+.menu-item {
+}
+
+.menu-item-type-taxonomy {
+}
+
+.menu-item-object-category {
+}
+
+.menu-item-5399 {
+}
+
+.menu-item-5399 > a {
+}
+
+.menu-item-5404 {
+}
+
+.menu-item-5404 > a {
+}
+
+.menu-item-5632 {
+}
+
+.menu-item-5632 > a {
+}
+
+.menu-item-5398 {
+}
+
+.menu-item-5398 > a {
+}
+
+.menu-item-5403 {
+}
+
+.menu-item-5403 > a {
+}
+
+.current-post-ancestor {
+}
+
+.current-menu-parent {
+}
+
+.current-post-parent {
+}
+
+.menu-item-5401 {
+}
+
+.menu-item-5401 > a {
+}
+
+.menu-item-5438 {
+}
+
+.menu-item-5438 > a {
+}
+
+.menu-mainmenuright-container {
+}
+
+.menu-item-type-post_type {
+}
+
+.menu-item-object-page {
+}
+
+.menu-item-20519 {
+}
+
+.menu-item-20519 > a {
+}
+
+.search-field {
+}
+
+.menu-item-type-custom {
+}
+
+.menu-item-object-custom {
+}
+
+.menu-item-20138 {
+}
+
+.menu-item-20138 > a {
+}
+
+.menu-item-20145 {
+}
+
+.menu-item-20145 > a {
+}
+
+.menu-item-20146 {
+}
+
+.menu-item-20146 > a {
+}
+
+.container {
+}
+
+.marginTop0 {
+}
+
+.hfeed {
+}
+
+.row {
+}
+
+.clearfix {
+}
+
+.clearfix > a {
+}
+
+.clearfix > a > img {
+}
+
+.clearfix > p {
+}
+
+.clearfix > h4 {
+}
+
+.clearfix > p > a {
+}
+
+.clearfix > p > br {
+}
+
+.header-nav {
+}
+
+.assistive-text {
+}
+
+.skip-link {
+}
+
+.navbar {
+}
+
+.navbar-inner {
+}
+
+.nav-collapse {
+}
+
+.menu-socialmenu-container {
+}
+
+.menu-item-20148 {
+}
+
+.menu-item-20148 > a {
+}
+
+.menu-item-20149 {
+}
+
+.menu-item-20149 > a {
+}
+
+.menu-item-20150 {
+}
+
+.menu-item-20150 > a {
+}
+
+.menu-item-20152 {
+}
+
+.menu-item-20152 > a {
+}
+
+.menu-item-20153 {
+}
+
+.menu-item-20153 > a {
+}
+
+.menu-item-25155 {
+}
+
+.menu-item-25155 > a {
+}
+
+.span12 {
+}
+
+.t-center {
+}
+
+.span12 > a {
+}
+
+.span12 > a > img {
+}
+
+.left {
+}
+
+.left > a {
+}
+
+.right {
+}
+
+.right > a {
+}
+
+.span7 {
+}
+
+.post-24560 {
+}
+
+.post {
+}
+
+.type-post {
+}
+
+.status-publish {
+}
+
+.format-standard {
+}
+
+.has-post-thumbnail {
+}
+
+.hentry {
+}
+
+.category-genius {
+}
+
+.tag-best-of {
+}
+
+.tag-blog {
+}
+
+.tag-inspiration {
+}
+
+.page-header {
+}
+
+.entry-title {
+}
+
+.entry-title > a {
+}
+
+.entry-meta {
+}
+
+.entry-meta > time {
+}
+
+.author {
+}
+
+.vcard {
+}
+
+.url {
+}
+
+.fn {
+}
+
+.n {
+}
+
+.post-list {
+}
+
+.category-title {
+}
+
+.category-title > a {
+}
+
+.entry-content {
+}
+
+.thumbnail {
+}
+
+.alignnone {
+}
+
+.size-full {
+}
+
+.wp-image-25106 {
+}
+
+.wp-image-25105 {
+}
+
+.wp-image-25103 {
+}
+
+.wp-image-25116 {
+}
+
+.wp-image-25107 {
+}
+
+.wp-image-25124 {
+}
+
+.wp-image-25109 {
+}
+
+.wp-image-25112 {
+}
+
+.wp-image-25111 {
+}
+
+.wp-image-25120 {
+}
+
+.sharedaddy {
+}
+
+.sd-sharing-enabled {
+}
+
+.robots-nocontent {
+}
+
+.sd-block {
+}
+
+.sd-social {
+}
+
+.sd-social-icon-text {
+}
+
+.sd-sharing {
+}
+
+.sd-content {
+}
+
+.sd-content > ul {
+}
+
+.share-facebook {
+}
+
+.share-facebook > span {
+}
+
+.sd-button {
+}
+
+.share-icon {
+}
+
+.share-icon > span {
+}
+
+.share-twitter {
+}
+
+.share-twitter > span {
+}
+
+.share-google-plus-1 {
+}
+
+.share-google-plus-1 > span {
+}
+
+.share-pinterest {
+}
+
+.share-pinterest > span {
+}
+
+.share-tumblr {
+}
+
+.share-tumblr > span {
+}
+
+.share-stumbleupon {
+}
+
+.share-stumbleupon > span {
+}
+
+.share-end {
+}
+
+.entry-footer {
+}
+
+.cat-links {
+}
+
+.block {
+}
+
+.block > a {
+}
+
+.tag-links {
+}
+
+.fb-comments {
+}
+
+.pager {
+}
+
+.span5 {
+}
+
+.singlePost {
+}
+
+.next {
+}
+
+.previous {
+}
+
+.clear {
+}
+
+.js_fixedcontent {
+}
+
+.js_fixedcontent > iframe {
+  border: none;
+  overflow: hidden;
+  height: 258px;
+}
+
+.validate {
+}
+
+.form-inline {
+}
+
+.form-inline > h4 {
+}
+
+.form-inline > label {
+}
+
+.email {
+}
+
+.button {
+}
+
+.btn {
+}
+
+.footer-logo {
+}
+
+.footer-locations {
+}
+
+.footer-dr {
+}
+
+.footer-imprint {
+}
+
+.hidden {
+}
+
+.input-append {
+}
+
+.span2 {
+}
+
+.navbar-mobile-back {
+}
+
+.navbar-fixed-top {
+}
+
+.navbar-toggle {
+}
+
+.btn-main-navbar {
+}
+
+.fa {
+}
+
+.fa-bars {
+}
+
+.btn-navbar {
+}
+
+.fa-share-alt {
+}
+
+
+
+
+
+
+
+
+HTML
+HEAD
+LINK rel="stylesheet" type="text/css" id="gravatar-card-css" href="http://s.gravatar.com/css/hovercard.css?ver=2015Febaa"
+LINK rel="stylesheet" type="text/css" id="gravatar-card-services-css" href="http://s.gravatar.com/css/services.css?ver=2015Febaa"
+BODY class="single single-post postid-24560 single-format-standard custom-background content-sidebar"
+#text:
+DIV id="fb-root"
+#text:
+SCRIPT type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"
+SCRIPT id="facebook-jssdk" src="//connect.facebook.net/de_DE/sdk.js#xfbml=1&appId=1519358598345527&version=v2.0"
+SCRIPT
+#text: (function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/de_DE/sdk.js#xfbml=1&appId=1519358598345527&version=v2.0"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));
+#text:
+NAV id="navbar-mobile" class="navmenu navmenu-default navmenu-fixed-left offcanvas" role="navigation"
+#text:
+DIV class="canvas-mobile-back"
+#text:
+DIV class="menu-mainmenu-container"
+UL id="menu-mainmenu" class="nav"
+LI id="menu-item-5399" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5399"
+A href="http://witness-this.com/category/art/"
+#text: Art
+#text:
+LI id="menu-item-5404" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5404"
+A href="http://witness-this.com/category/darkroom/"
+#text: Darkroom
+#text:
+LI id="menu-item-5632" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5632"
+A href="http://witness-this.com/category/sound/"
+#text: Sound
+#text:
+LI id="menu-item-5398" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5398"
+A href="http://witness-this.com/category/motion/"
+#text: Motion
+#text:
+LI id="menu-item-5403" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5403"
+A href="http://witness-this.com/category/style/"
+#text: Style
+#text:
+LI id="menu-item-5401" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-5401"
+A href="http://witness-this.com/category/genius/"
+#text: Genius
+#text:
+LI id="menu-item-5438" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5438"
+A href="http://witness-this.com/category/stalker-2/"
+#text: Stalker
+#text:
+#text:
+DIV class="menu-mainmenuright-container"
+UL id="menu-mainmenuright" class="nav"
+LI id="menu-item-20519" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20519"
+A href="http://witness-this.com/about/"
+#text: About
+#text:
+LI id="menu-item-20138" class="search-field menu-item menu-item-type-custom menu-item-object-custom menu-item-20138"
+A href="/search"
+#text: Search
+#text:
+LI id="menu-item-20145" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20145"
+A href="http://witness-this.com/contact/"
+#text: Contact
+#text:
+LI id="menu-item-20146" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20146"
+A href="http://witness-this.com/friends/"
+#text: Friends
+#text:
+#text:
+#comment: <form method="get" id="searchform" class="form-search" action="http://witness-this.com/"> <label for="s" class="assistive-text hidden">Search</label> <div class="input-append"> <input id="s" class="span2 search-query" type="search" name="s" placeholder="Search"> <button class="btn btn-primary" name="submit" id="searchsubmit" type="submit"><i class="fa fa-search"></i></button> </div> </form>
+#text:
+#text:
+DIV class="container marginTop0"
+#text:
+DIV id="page" class="hfeed row clearfix"
+#text:
+NAV id="access" class="header-nav" role="navigation"
+#text:
+H3 class="assistive-text"
+#text: Main menu
+#text:
+DIV class="skip-link"
+A class="assistive-text" href="#content" title="Skip to primary content"
+#text: Skip to primary content
+#text:
+DIV class="skip-link"
+A class="assistive-text" href="#secondary" title="Skip to secondary content"
+#text: Skip to secondary content
+#text:
+DIV class="navbar"
+#text:
+DIV class="navbar-inner"
+#text:
+DIV class="container"
+#text:
+DIV class="nav-collapse"
+#text:
+DIV class="menu-socialmenu-container"
+UL id="menu-socialmenu" class="nav"
+LI id="menu-item-20148" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20148"
+A target="_blank" href="http://www.facebook.com/WitnessThisBlog"
+#text: FACEBOOK
+#text:
+LI id="menu-item-20149" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20149"
+A target="_blank" href="https://twitter.com/#!/WitnessThisblog"
+#text: TWITTER
+#text:
+LI id="menu-item-20150" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20150"
+A target="_blank" href="https://soundcloud.com/witness-this"
+#text: SOUNDCLOUD
+#text:
+LI id="menu-item-20152" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20152"
+A target="_blank" href="http://witness-this.tumblr.com"
+#text: TUMBLR
+#text:
+LI id="menu-item-20153" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20153"
+A target="_blank" href="http://pinterest.com/witnessthis/"
+#text: PINTEREST
+#text:
+LI id="menu-item-25155" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-25155"
+A target="_blank" href="http://instagram.com/witnessthis"
+#text: INSTAGRAM
+#text:
+#text:
+#comment: <div class="menu-share"> <ul> <li><div class="fb-like" data-href="https://www.facebook.com/WitnessThisBlog" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div></li> <li><a href="https://twitter.com/WitnessThisblog" class="twitter-follow-button" data-show-count="true" data-show-screen-name="false" data-width="150px" data-align="right">Follow @WitnessThisblog</a></li> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> </ul> </div>
+#text:
+#text:
+#text:
+#text:
+#text:
+#comment: #access
+#text:
+DIV id="header-logo" class="span12 t-center clearfix"
+#text:
+A href="http://witness-this.com/"
+IMG src="http://witness-this.com/wp-content/themes/witness-this/images/witness-this-logo.jpg" alt="WITNESS THIS" scale="0"
+#text:
+#text:
+SECTION id="home-nav-middle" class="span12"
+#text:
+DIV class="navbar-inner left"
+#text:
+DIV class="menu-mainmenu-container"
+UL id="menu-mainmenu-1" class="nav"
+LI class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5399"
+A href="http://witness-this.com/category/art/"
+#text: Art
+#text:
+LI class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5404"
+A href="http://witness-this.com/category/darkroom/"
+#text: Darkroom
+#text:
+LI class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5632"
+A href="http://witness-this.com/category/sound/"
+#text: Sound
+#text:
+LI class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5398"
+A href="http://witness-this.com/category/motion/"
+#text: Motion
+#text:
+LI class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5403"
+A href="http://witness-this.com/category/style/"
+#text: Style
+#text:
+LI class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-5401"
+A href="http://witness-this.com/category/genius/"
+#text: Genius
+#text:
+LI class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5438"
+A href="http://witness-this.com/category/stalker-2/"
+#text: Stalker
+#text:
+#text:
+#text:
+DIV class="navbar-inner right"
+#text:
+DIV class="menu-mainmenuright-container"
+UL id="menu-mainmenuright-1" class="nav"
+LI class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20519"
+A href="http://witness-this.com/about/"
+#text: About
+#text:
+LI class="search-field menu-item menu-item-type-custom menu-item-object-custom menu-item-20138"
+A href="/search"
+#text: Search
+#text:
+LI class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20145"
+A href="http://witness-this.com/contact/"
+#text: Contact
+#text:
+LI class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20146"
+A href="http://witness-this.com/friends/"
+#text: Friends
+#text:
+#text:
+#text:
+#text:
+SECTION id="primary" class="span7"
+#text:
+DIV id="content" role="main"
+#text:
+ARTICLE id="post-24560" class="post-24560 post type-post status-publish format-standard has-post-thumbnail hentry category-genius tag-best-of tag-blog tag-inspiration"
+#text:
+HEADER class="page-header"
+#text:
+H1 class="entry-title"
+A href="http://witness-this.com/genius/10-inspirational-blogs-for-your-radar/" title="Permalink to 10 Inspirational Blogs You Should Have On Your Radar These Days" rel="bookmark"
+#text: 10 Inspirational Blogs You Should Have On Your Radar These Days
+#text:
+DIV class="entry-meta"
+TIME
+#text: 12.16.14
+SPAN class="author vcard"
+A class="url fn n" href="http://witness-this.com/author/witness-11/" title="View all posts by Philipp" rel="author"
+#text: Philipp
+SPAN class="post-list category-title"
+A href="http://witness-this.com/category/genius/"
+#text: Genius
+#comment: .entry-meta
+#text:
+#comment: .entry-header
+#text:
+DIV class="entry-content clearfix"
+#text:
+P
+#text: The WITNESS THIS editors have put together a selection of their favorite inspirational blogs of the hour, and we’d like to share it with you. Here we go!
+#text:
+P
+#text: —
+#text:
+H4
+#text: Our favorite inspirational blogs of the hour (in random order):
+#text:
+P
+#text: 01)
+A href="http://fuckingyoung.es/" target="_blank"
+#text: Fucking Young!
+BR
+#text: Established in Barcelona, this one “began as an inspirational blogs platform focusing on youthful aesthetics derived from manly hemispheres.” Now also available as a print mag, FY! strives to provide inspiration for men interested in fashion and contemporary culture.
+#text:
+P
+A class="thumbnail" href="http://fuckingyoung.es/" target="_blank"
+IMG class="alignnone size-full wp-image-25106" src="http://witness-this.com/wp-content/uploads/2014/12/FuckingYoung_Blog.jpg" alt="Fucking Young! Blog" width="670" height="283" scale="0"
+#text:
+P
+#text: —
+BR
+#text: 02)
+A href="http://www.thisiscollate.com/" target="_blank"
+#text: COLLATE
+BR
+#text: Every time you pay a visit to Collate, it feels like taking a trip to a museum in a foreign country. Not only do they have a heightened cross-cultural curation, but their ability to inspire by highlighting clean, minimal, tasteful design and art, leaves you feeling like the time you spent browsing the site was valuable.
+#text:
+P
+A class="thumbnail" href="http://www.thisiscollate.com/" target="_blank"
+IMG class="alignnone size-full wp-image-25105" src="http://witness-this.com/wp-content/uploads/2014/12/COLLATE-Blog.jpg" alt="COLLATE Blog" width="670" height="451" scale="0"
+#text:
+P
+#text: —
+BR
+#text: 03)
+A href="http://www.booooooom.com/" target="_blank"
+#text: BOOOOOOOM
+BR
+#text: Jeff Hamada, the man behind Booooooom, understands the art world like no other. His constant search for incredible artists to feature make sure that you will uncover something you haven’t seen before every time you visit the blog. Jeff is a creative blogger as well and a lot of the themes of his features, or contests he creates add to the inclusive and immersive experience.
+#text:
+P
+A class="thumbnail" href="http://www.booooooom.com/" target="_blank"
+IMG class="alignnone size-full wp-image-25103" src="http://witness-this.com/wp-content/uploads/2014/12/BOOOOOOOM_Blog.jpg" alt="BOOOOOOOM Blog" width="670" height="367" scale="0"
+#text:
+P
+#text: —
+BR
+#text: 04)
+A href="http://moodboard.streetetiquette.com/" target="_blank"
+#text: STREET ETIQUETTE
+BR
+#text: Street Etiquette’s Joshua Kissi and Travis Gumbs are cooler than cool. Impeccable curation from today’s keenest eyes for design and fashion. This Tumblr features the images that inspire these two to continue driving at the forefront of men’s fashion and streetwear. Images that you just want to crawl inside of.
+#text:
+P
+A class="thumbnail" href="http://moodboard.streetetiquette.com/" target="_blank"
+IMG class="alignnone size-full wp-image-25116" src="http://witness-this.com/wp-content/uploads/2014/12/Street-Etiquette-Blog.jpg" alt="Street Etiquette Blog" width="670" height="384" scale="0"
+#text:
+P
+#text: —
+BR
+#text: 05)
+A href="http://theshinysquirrel.tumblr.com/" target="_blank"
+#text: THE SHINY SQUIRREL
+BR
+#text: A simple, carefully curated inspiration feed. Where high fashion meets street-wear, it’s a go-to for inspiration on styling, art direction, decorating your living room, or that next art piece for your wall.
+#text:
+P
+A class="thumbnail" href="http://theshinysquirrel.tumblr.com/" target="_blank"
+IMG class="alignnone size-full wp-image-25107" src="http://witness-this.com/wp-content/uploads/2014/12/Shiny_Squirrel_tumblr.jpg" alt="The Shiny Squirrel Tumblr Blog" width="670" height="346" scale="0"
+#text:
+P
+#text: —
+BR
+#text: 06)
+A href="http://www.c-heads.com" target="_blank"
+#text: C-Heads Magazine
+BR
+#text: At first glance, C-Heads is a bunch of pictures of young naked girls but dig a little deeper, the magazine is chock-full of incredible work from photographers around the world, beautiful marketing campaigns and interesting collabs.
+#text:
+P
+A class="thumbnail" href="http://www.c-heads.com" target="_blank"
+IMG class="alignnone size-full wp-image-25124" src="http://witness-this.com/wp-content/uploads/2014/12/C-Heads-Magazine.jpg" alt="C-Heads Magazine" width="670" height="321" scale="0"
+#text:
+P
+#text: —
+BR
+#text: 07)
+A href="http://thatkindofwoman.tumblr.com/" target="_blank"
+#text: That Kind Of Woman
+BR
+#text: That Kind of Woman is a carefully curated, home-grown, true blue, small town inspirational blogs with massive appeal. It’s feminine, wholesome and brings us right back home.
+#text:
+P
+A class="thumbnail" href="http://thatkindofwoman.tumblr.com/" target="_blank"
+IMG class="alignnone size-full wp-image-25109" src="http://witness-this.com/wp-content/uploads/2014/12/That_Kind_Of_Woman.jpg" alt="That Kind Of Woman Blog" width="670" height="420" scale="0"
+#text:
+P
+#text: —
+BR
+#text: 08)
+A href="http://trendland.com/" target="_blank"
+#text: TRENDLAND.com
+BR
+#text: A fine selection of contemporary notes ranging from art through style through architecture, living and interior design, music and you-name-it. Well curated, and presented in a classy layout reminiscent of a glossy mag.
+#text:
+P
+A class="thumbnail" href="http://trendland.com/" target="_blank"
+IMG class="alignnone size-full wp-image-25112" src="http://witness-this.com/wp-content/uploads/2014/12/TRENDLAND.jpg" alt="TRENDLAND Blog" width="670" height="377" scale="0"
+#text:
+P
+#text: —
+BR
+#text: 09)
+A href="http://themindunleashed.org/" target="_blank"
+#text: The Mind Unleashed
+BR
+#text: What stands out here versus other inspirational blogs is the strong integration of the spiritual and the scientific. We aren’t fans of the occasional conspiracy posts but in terms of hacking your life towards more awesomeness these guys are doing excellent work. With >30 million (!) monthly unique readers TMU is one of the most read inspirational blogs on this planet. Inevitable for the ones of you following the spiritual path.
+#text:
+P
+A class="thumbnail" href="http://themindunleashed.org/" target="_blank"
+IMG class="alignnone size-full wp-image-25111" src="http://witness-this.com/wp-content/uploads/2014/12/TheMindUnleashed_Blog.jpg" alt="The Mind Unleashed" width="670" height="379" scale="0"
+#text:
+P
+#text: —
+BR
+#text: 10)
+A href="http://theclassyissue.com/" target="_blank"
+#text: theclassyissue.com
+BR
+#text: Without a doubt one of the most powerful tumblr-based inspirational blogs out there at the moment. No other combines such a well-curated, inspiring snapshot of the
+EM
+#text: Zeitgeist
+#text: as much as tci manages to capture these days. With celebs, Hip-Hop Soundclouds and GIFs embedded and a never-ending stream of photographic notes being fed in each day, this one has seen an insane and well-deserved increase in subscribers over the past 12 months. I don’t like the selfies and silicone, and Kanye West is too omni-present for my taste, but I seem to represent a minority in that regard.
+BR
+#text: Simple, sexy, and effective beyond the borders of language – this one is bold, and GOLD.
+#text:
+P
+A class="thumbnail" href="http://theclassyissue.com/" target="_blank"
+IMG class="alignnone size-full wp-image-25120" src="http://witness-this.com/wp-content/uploads/2014/12/The_Classy_Issue_Tumblr_Blog.jpg" alt="The Classy Issue tci" width="670" height="380" scale="0"
+#text:
+P
+#text: —
+BR
+#text:
+EM
+#text: Which inspirational blogs do YOU think we need to witness? Comment below, we are looking forward to being inspired!
+#text:
+DIV class="sharedaddy sd-sharing-enabled"
+DIV class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"
+DIV class="sd-content"
+UL
+LI class="share-facebook"
+A rel="nofollow" data-shared="sharing-facebook-24560" class="share-facebook sd-button share-icon" href="http://witness-this.com/genius/10-inspirational-blogs-for-your-radar/?share=facebook" title="Share on Facebook"
+SPAN
+#text: Facebook
+LI class="share-twitter"
+A rel="nofollow" data-shared="sharing-twitter-24560" class="share-twitter sd-button share-icon" href="http://witness-this.com/genius/10-inspirational-blogs-for-your-radar/?share=twitter" title="Click to share on Twitter"
+SPAN
+#text: Twitter
+LI class="share-google-plus-1"
+A rel="nofollow" data-shared="sharing-google-24560" class="share-google-plus-1 sd-button share-icon" href="http://witness-this.com/genius/10-inspirational-blogs-for-your-radar/?share=google-plus-1" title="Click to share on Google+"
+SPAN
+#text: Google
+LI class="share-pinterest"
+A rel="nofollow" data-shared="" class="share-pinterest sd-button share-icon" href="http://witness-this.com/genius/10-inspirational-blogs-for-your-radar/?share=pinterest" title="Click to share on Pinterest"
+SPAN
+#text: Pinterest
+LI class="share-tumblr"
+A rel="nofollow" data-shared="" class="share-tumblr sd-button share-icon" href="http://witness-this.com/genius/10-inspirational-blogs-for-your-radar/?share=tumblr" title="Click to share on Tumblr"
+SPAN
+#text: Tumblr
+LI class="share-stumbleupon"
+A rel="nofollow" data-shared="" class="share-stumbleupon sd-button share-icon" href="http://witness-this.com/genius/10-inspirational-blogs-for-your-radar/?share=stumbleupon" title="Click to share on StumbleUpon"
+SPAN
+#text: StumbleUpon
+LI class="share-end"
+#text:
+#comment: .entry-content
+#text:
+FOOTER class="entry-footer"
+#text:
+SPAN class="cat-links block"
+#text: Posted in
+A href="http://witness-this.com/category/genius/" rel="category tag"
+#text: Genius
+#text: .
+SPAN class="tag-links block"
+#text: Tagged
+A href="http://witness-this.com/tag/best-of/" rel="tag"
+#text: best of
+#text: ,
+A href="http://witness-this.com/tag/blog/" rel="tag"
+#text: blog
+#text: ,
+A href="http://witness-this.com/tag/inspiration/" rel="tag"
+#text: inspiration
+#text: .
+#text:
+#comment: .entry-footer
+#text:
+#comment: #post-24560
+#text:
+DIV class="fb-comments" data-width="670" data-num-posts="50" data-href="http://witness-this.com/genius/10-inspirational-blogs-for-your-radar/"
+#text:
+NAV id="nav-single" class="pager"
+#text:
+H3 class="assistive-text"
+#text: Post navigation
+#text:
+#comment: #nav-single
+#text:
+#comment: #content
+#text:
+#comment: #primary
+#text:
+SECTION id="secondary" class="span5 singlePost"
+#text:
+SPAN class="next right"
+A href="http://witness-this.com/art/atsushi-koyama/" rel="next"
+#text: Next
+#text:
+SPAN class="previous right"
+A href="http://witness-this.com/art/chris-maynard-featherfolio/" rel="prev"
+#text: Previous
+#text:
+DIV class="clear"
+#text:
+DIV class="js_fixedcontent" style="top: 24px; z-index: 500; width: 1406px; position: static;"
+#text:
+IFRAME src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FWitnessThisBlog&width&height=258&colorscheme=light&show_faces=true&header=false&stream=false&show_border=false&appId=1519358598345527" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:258px;" allowtransparency="true"
+#text:
+#comment: Begin MailChimp Signup Form
+#text:
+FORM action="//witness-this.us9.list-manage.com/subscribe/post?u=d6560d6d0ca142ca8899ca7f9&id=e05bcb63c7" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form-inline" target="_blank" novalidate=""
+#text:
+H4
+#text: Want to become a witness?
+#text:
+LABEL
+#text: Subscribe to our newsletter and receive updates.
+#text:
+DIV id="mc_embed_signup_scroll"
+#text:
+INPUT type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="ENTER YOUR E-MAIL HERE" required=""
+#text:
+DIV style="position: absolute; left: -5000px;"
+INPUT type="text" name="b_d6560d6d0ca142ca8899ca7f9_e05bcb63c7" tabindex="-1" value=""
+#text:
+INPUT type="submit" value="GO" name="subscribe" id="mc-embedded-subscribe" class="button btn"
+#text:
+#text:
+LABEL
+#text: We will never spam you.
+#text:
+#text:
+#comment: End MailChimp Signup Form
+#text:
+#text:
+#text:
+DIV class="clearfix"
+#text:
+FOOTER id="footer" class="span12"
+#text:
+SPAN class="left"
+A href="http://witness-this.com/"
+IMG class="footer-logo" src="http://witness-this.com/wp-content/themes/witness-this/images/wt-footer-logo.jpg" alt="WITNESS THIS" scale="0"
+#text:
+IMG class="footer-locations" src="http://witness-this.com/wp-content/themes/witness-this/images/wt-footer-locations.jpg" alt="Los Angeles, Berlin" scale="0"
+#text:
+SPAN class="right"
+#text:
+A href="http://dersurhodes.com" target="_blank"
+#text:
+IMG class="footer-dr" src="http://witness-this.com/wp-content/themes/witness-this/images/wt-footer-dr.jpg" alt="Design by DR" scale="0"
+#text:
+#text:
+A href="http://witness-this.com//imprint"
+#text:
+IMG class="footer-imprint" src="http://witness-this.com/wp-content/themes/witness-this/images/wt-imprint.jpg" alt="Imprint" scale="0"
+#text:
+#text:
+#text:
+#comment: <section id="home-nav-middle" class="span12"> <div class="navbar-inner left"> <div class="menu-footer-menu-container"><ul id="menu-footer-menu" class="nav"><li id="menu-item-26357" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26357"><a href="http://witness-this.com/imprint/">Imprint</a></li> </ul></div>	</div> </section>
+#text:
+#text:
+#comment: #page
+#text:
+#comment: .container
+#text:
+DIV style="display:none"
+#text:
+#text:
+SCRIPT type="text/javascript"
+#text: WPCOM_sharing_counts = {"http:\/\/witness-this.com\/genius\/10-inspirational-blogs-for-your-radar\/":24560}
+#text:
+SCRIPT type="text/javascript"
+#text: jQuery(document).on( 'ready post-load', function(){ jQuery( 'a.share-facebook' ).on( 'click', function() { window.open( jQuery(this).attr( 'href' ), 'wpcomfacebook', 'menubar=1,resizable=1,width=600,height=400' ); return false; }); });
+#text:
+SCRIPT type="text/javascript"
+#text: jQuery(document).on( 'ready post-load', function(){ jQuery( 'a.share-twitter' ).on( 'click', function() { window.open( jQuery(this).attr( 'href' ), 'wpcomtwitter', 'menubar=1,resizable=1,width=600,height=350' ); return false; }); });
+#text:
+SCRIPT type="text/javascript"
+#text: jQuery(document).on( 'ready post-load', function(){ jQuery( 'a.share-google-plus-1' ).on( 'click', function() { window.open( jQuery(this).attr( 'href' ), 'wpcomgoogle-plus-1', 'menubar=1,resizable=1,width=480,height=550' ); return false; }); });
+#text:
+SCRIPT type="text/javascript"
+#text: jQuery(document).on('ready', function(){ jQuery('body').on('click', 'a.share-pinterest', function(e){ e.preventDefault(); // Load Pinterest Bookmarklet code var s = document.createElement("script"); s.type = "text/javascript"; s.src = window.location.protocol + "//assets.pinterest.com/js/pinmarklet.js?r=" + ( Math.random() * 99999999 ); var x = document.getElementsByTagName("script")[0]; x.parentNode.insertBefore(s, x); // Trigger Stats var s = document.createElement("script"); s.type = "text/javascript"; s.src = this + ( this.toString().indexOf( '?' ) ? '&' : '?' ) + 'js_only=1'; var x = document.getElementsByTagName("script")[0]; x.parentNode.insertBefore(s, x); }); });
+#text:
+SCRIPT type="text/javascript"
+#text: jQuery(document).on( 'ready post-load', function(){ jQuery( 'a.share-tumblr' ).on( 'click', function() { window.open( jQuery(this).attr( 'href' ), 'wpcomtumblr', 'menubar=1,resizable=1,width=450,height=450' ); return false; }); });
+#text:
+SCRIPT type="text/javascript" src="http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201506"
+#text:
+SCRIPT type="text/javascript" src="http://s.gravatar.com/js/gprofiles.js?ver=2015Febaa"
+#text:
+SCRIPT type="text/javascript"
+#text: /* <![CDATA[ */ var WPGroHo = {"my_hash":""}; /* ]]> */
+#text:
+SCRIPT type="text/javascript" src="http://witness-this.com/wp-content/plugins/jetpack/modules/wpgroho.js?ver=4.1"
+#text:
+SCRIPT type="text/javascript" src="http://witness-this.com/wp-content/themes/witness-this/js/bootstrap.min.js?ver=2.0.3"
+#text:
+SCRIPT type="text/javascript" src="http://witness-this.com/wp-content/themes/witness-this/js/the-bootstrap.min.js?ver=1.0"
+#text:
+SCRIPT type="text/javascript"
+#text: /* <![CDATA[ */ var sharing_js_options = {"lang":"en","counts":"1"}; /* ]]> */
+#text:
+SCRIPT type="text/javascript" src="http://witness-this.com/wp-content/plugins/jetpack/modules/sharedaddy/sharing.js?ver=20140920"
+#text:
+#comment: search for main navigation
+#text:
+DIV id="nav-search-cont" style="display: none;"
+#text:
+FORM method="get" id="searchform" class="form-inline" action="/"
+#text:
+LABEL for="s" class="assistive-text hidden"
+#text: SEARCH
+#text:
+DIV class="input-append"
+#text:
+INPUT id="s" class="span2" type="search" name="s" placeholder="ENTER YOUR SEARCH"
+#text:
+BUTTON class="btn" name="submit" id="searchsubmit" type="submit"
+#text: Go
+#text:
+#text:
+#text:
+#text:
+SCRIPT type="text/javascript"
+#text: $(document).ready( function() { $('.search-field').on( 'click', function() { $navSearchCont = $('#nav-search-cont'); $(this).unbind('click').html(''); $(this).css('background-image', 'none'); $(this).addClass('no-before'); if (typeof $navSearchCont == 'undefined') { console.dir('TypeOf == Undefined'); window.location = '/?s=&submit='; return false; } $navSearchCont.appendTo($(this)).css('z-index', 9999).show(); return false; }); // $('#header-logo a').hover( // function() { // $(this).fadeOut( 400, function () { $(this).css('background-position', '0 -95px'); $(this).fadeIn(400); } ); // }, //	function() { // $(this).fadeOut( 400, function () { $(this).css('background-position', 'center 0'); $(this).fadeIn(400); } ); // } // ); }); $(window).load(function() { $homeNavMiddle = $('#home-nav-middle'); var stickyNavTop = $homeNavMiddle.offset().top; var stickyNav = function(){ var scrollTop = $(document).scrollTop(); if (scrollTop > stickyNavTop) { $homeNavMiddle.addClass('sticky'); } else { $homeNavMiddle.removeClass('sticky'); } }; stickyNav(); $(window).scroll(function() { stickyNav(); }); }); var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-56403584-2']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })();
+#text:
+#comment: Yasni for Off Canvas Menu
+#text:
+LINK rel="stylesheet" href="http://witness-this.com/wp-content/themes/witness-this/css/jasny-bootstrap.css"
+#text:
+SCRIPT src="http://witness-this.com/wp-content/themes/witness-this/js/jasny-bootstrap.js"
+#text:
+#comment: Sticky Sidebar Posts
+#text:
+SCRIPT src="http://witness-this.com/wp-content/themes/witness-this/js/jquery.fixedcontent.min.js"
+#text:
+SCRIPT
+#text: $(".js_fixedcontent").fixedcontent({ // The margin between the window and fixed element. marginTop: 24, // The breakpoint to disables the plugin. minWidth: 767, // z-index property zIndex: 500 });
+#text:
+DIV class="navbar-mobile-back navbar-fixed-top navbar"
+#text:
+DIV class="container"
+#text:
+#comment: .btn-navbar is used as the off canvas menu
+#text:
+BUTTON type="button" class="navbar-toggle btn btn-main-navbar" data-toggle="offcanvas" data-target="#navbar-mobile" data-canvas="body"
+#text:
+SPAN class="fa fa-bars"
+#text:
+#text:
+#comment: .btn-navbar is used as the toggle for collapsed navbar content
+#text:
+A class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"
+#text:
+SPAN class="fa fa-share-alt"
+#text:
+#text:
+#text:
+#text:

@@ -1,0 +1,976 @@
+ReferenceError: Can't find variable: jQuery
+
+  local:138
+ReferenceError: Can't find variable: jQuery
+
+  local:101
+ReferenceError: Can't find variable: jQuery
+
+  local:122
+ReferenceError: Can't find variable: jQuery
+
+  local:124
+ReferenceError: Can't find variable: jQuery
+
+  local:121
+ReferenceError: Can't find variable: jQuery
+
+  local:122
+/*** uncss> filename: http://fonts.googleapis.com/css?family=Open+Sans:600 ***/
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(http://fonts.gstatic.com/s/opensans/v10/MTP_ySUJH_bn48VBG8sNSonF5uFdDttMLvmWuJdhhgs.ttf) format('truetype');
+}
+
+/*** uncss> filename: http://fonts.googleapis.com/css?family=Open+Sans:300 ***/
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(http://fonts.gstatic.com/s/opensans/v10/DXI1ORHCpsQm3Vp6mXoaTYnF5uFdDttMLvmWuJdhhgs.ttf) format('truetype');
+}
+
+/*** uncss> filename: css/normalize.css ***/
+
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+
+html {
+  font-family: 'Open Sans', sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  box-sizing: border-box;
+  min-height: 720px;
+  max-width: 1440px;
+}
+
+/**
+ * Remove default margin.
+ */
+
+body {
+  margin: 0;
+  background-color: #444;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+
+footer,
+nav {
+  display: block;
+}
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+
+/* Links
+   ========================================================================== */
+
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+
+/**
+ * Contain overflow in all browsers.
+ */
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+
+input {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+}
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+
+input {
+  line-height: normal;
+}
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+
+/* Tables
+   ========================================================================== */
+
+/**
+ * Remove most spacing between table cells.
+ */
+
+/*** uncss> filename: css/skeleton.css ***/
+
+/*
+* Skeleton V2.0.4
+* Copyright 2014, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 12/29/2014
+*/
+
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+- Grid
+- Base Styles
+- Typography
+- Links
+- Buttons
+- Forms
+- Lists
+- Code
+- Tables
+- Spacing
+- Utilities
+- Clearing
+- Media Queries
+*/
+
+/* Grid
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.container {
+  position: relative;
+  width: inherit;
+  /* margin: 0 auto; */
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 1.5s ease;
+}
+
+/* For devices larger than 400px */
+
+@media (min-width: 400px) {
+  .container {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* For devices larger than 550px */
+
+@media (min-width: 550px) {
+  /* Offsets */
+}
+
+/* Base Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* NOTE
+html is set to 62.5% so that all the REM measurements throughout Skeleton
+are based on 10px sizing. So basically 1.5rem = 15px :) */
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.5em;
+  /* currently ems cause chrome bug misinterpreting rems on body element */
+  font-weight: 400;
+  color: #222;
+}
+
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 3.6rem;
+  line-height: 1.25;
+  letter-spacing: -.1rem;
+}
+
+/* Larger than phablet */
+
+@media (min-width: 550px) {
+  h2 {
+    font-size: 4.2rem;
+  }
+}
+
+p {
+  margin-top: 0;
+}
+
+/* Links
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+a {
+  color: #1EAEDB;
+}
+
+a:hover {
+  color: #0FA0CE;
+}
+
+/* Buttons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.button,
+input[type="submit"] {
+  display: inline-block;
+  height: 38px;
+  padding: 0 30px;
+  color: #555;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.button:hover,
+input[type="submit"]:hover,
+.button:focus,
+input[type="submit"]:focus {
+  color: #333;
+  border-color: #888;
+  outline: 0;
+}
+
+/* Forms
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+input[type="email"],
+input[type="text"] {
+  height: 38px;
+  padding: 6px 10px;
+  /* The 6px vertically centers text on FF, ignored by Webkit */
+  background-color: #fff;
+  border: 1px solid #D1D1D1;
+  border-radius: 4px;
+  box-shadow: none;
+  box-sizing: border-box;
+}
+
+/* Removes awkward default styles on some inputs for iOS */
+
+input[type="email"],
+input[type="text"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+input[type="email"]:focus,
+input[type="text"]:focus {
+  border: 1px solid #33C3F0;
+  outline: 0;
+}
+
+/* Lists
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Code
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Tables
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Spacing
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.button {
+  margin-bottom: 1rem;
+}
+
+input {
+  margin-bottom: 1.5rem;
+}
+
+p,
+form {
+  margin-bottom: 2.5rem;
+}
+
+/* Utilities
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Misc
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Clearing
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Self Clearing Goodness */
+
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/*
+Note: The best way to structure the use of media queries is to create the queries
+near the relevant code. For example, if you wanted to change the styles for buttons
+on small devices, paste the mobile query code up in the buttons section and style it
+there.
+*/
+
+/* Larger than mobile */
+
+/* Larger than phablet (also point when grid becomes active) */
+
+/* Larger than tablet */
+
+/* Larger than desktop */
+
+/* Larger than Desktop HD */
+
+/*** uncss> filename: css/custom.css ***/
+
+/* Table of Contents
+- Link Styles
+- Other sitewide styles
+- Actions
+- Layout
+- LOGO
+- TOP NAV
+- NAVBAR
+- SUBNAV
+*/
+
+/* =Layout */
+
+body {
+  position: relative;
+}
+
+.full {
+  background-color: #fff;
+  width: 100%;
+  position: relative;
+  top: 0;
+  margin: 0;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1rem;
+}
+
+.title_bar {
+  color: #000;
+  display: block;
+  font-size: 1em;
+  font-style: normal;
+  font-weight: bold;
+  height: 120px;
+  position: relative;
+  width: 97.5%;
+  margin-left: 2.5%;
+}
+
+.title_bar a {
+  font-size: 9rem;
+}
+
+.full_name {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url(../img/msharris.svg) no-repeat;
+  background-size: 12em 1.5em;
+}
+
+.main_nav {
+  display: block;
+  font-style: normal;
+  height: 50px;
+  overflow-x: visible;
+  overflow-y: visible;
+  width: 100%;
+  z-index: 9999;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  background-color: #fff;
+  transition: all 1.5s ease;
+}
+
+.links {
+  list-style: none;
+  overflow: hidden;
+  display: inline-block;
+  width: 15%;
+  height: 100%;
+  border-right: 1px solid #e5e5e5;
+  text-align: center;
+}
+
+.links a {
+  color: #000;
+  text-decoration: none;
+  font-size: 3.5rem;
+}
+
+.links a:hover {
+  color: #0FA0CE;
+}
+
+.links_right {
+  list-style: none;
+  overflow: hidden;
+  display: inline-block;
+  width: 10%;
+  height: 100%;
+  text-align: center;
+  float: right;
+  padding-top: .3rem;
+}
+
+.links_right a {
+  color: #000;
+  text-decoration: none;
+  font-size: 3rem;
+}
+
+.links_right a:hover {
+  color: #cddc39;
+}
+
+.main_body {
+  color: #000;
+  width: 95%;
+  margin: 2.5em 2.5em 2.5em 2.5em;
+  background-color: #fff;
+  display: inline-block;
+  height: 80%;
+  transition: all 1.5s ease;
+}
+
+.body_text {
+  width: 20%;
+  padding: 5% 2.5% 0 4.5%;
+  float: left;
+  overflow-y: auto;
+  font-size: 1.0vw;
+  text-align: justify;
+}
+
+.about_text {
+  width: 90%;
+  padding: 5% 5% 5% 5%;
+  float: left;
+  overflow-y: auto;
+  font-size: 1.0vw;
+  text-align: justify;
+}
+
+.body_image {
+  float: right;
+  width: 70%;
+  height: 100% !important;
+}
+
+.music_body {
+  color: #000;
+  width: 95%;
+  margin: 2.5em 2.5em 2.5em 2.5em;
+  background-color: #fff;
+  display: inline-block;
+  transition: all 1.5s ease;
+}
+
+.soundcloud {
+  width: 90%;
+  padding: 5% 5% 5% 5%;
+  float: left;
+  overflow-y: auto;
+  font-size: 1.0vw;
+  text-align: justify;
+}
+
+footer {
+  display: inline;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+  height: 10px;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.social_svg {
+  float: right;
+  margin: 0;
+  padding: 1rem 0 3rem 3rem;
+  width: 3%;
+}
+
+footer .copyright {
+  float: left;
+}
+
+footer .contact {
+  float: right;
+}
+
+/* MailChimp Form Embed Code - Classic - 08/17/2011 */
+
+.signup_container {
+  width: 60%;
+  margin: 10rem auto 5rem;
+  padding: 0;
+}
+
+#mc_embed_signup form {
+  display: block;
+  position: relative;
+  text-align: left;
+  padding: 10px 0 10px 3%;
+  color: #000;
+  background-color: #fff;
+  padding-bottom: 50px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 0px;
+  border: solid 2px #fff;
+}
+
+#mc_embed_signup h2 {
+  font-weight: 500;
+  padding: 0;
+  margin: 15px 0;
+  font-size: 2em;
+}
+
+#mc_embed_signup input {
+  border: none;
+  border-radius: 0;
+  -webkit-appearance: none;
+  background: #444;
+  color: #fff;
+  height: 58px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+#mc_embed_signup input:focus {
+  border-color: #333;
+}
+
+#mc_embed_signup .button {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  font-weight: bold;
+  font-style: normal;
+  text-transform: uppercase;
+  clear: both;
+  margin-top: 30px;
+  padding: 0;
+  background-color: #777;
+  -webkit-font-smoothing: antialiased;
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+#mc_embed_signup .button:hover {
+  background-color: #444;
+}
+
+#mc_embed_signup .mc-field-group {
+  clear: left;
+  position: relative;
+  width: 96%;
+  padding-bottom: 3%;
+  min-height: 50px;
+}
+
+#mc_embed_signup .mc-field-group input {
+  display: block;
+  width: 100%;
+  padding: 8px 0;
+  text-indent: 2%;
+}
+
+#mc_embed_signup .clear {
+  clear: both;
+}
+
+#mc_embed_signup div#mce-responses {
+  float: left;
+  top: -1.4em;
+  padding: 0 .5em;
+  overflow: hidden;
+  width: 90%;
+  margin: 0 5%;
+  clear: both;
+}
+
+#mc_embed_signup div.response {
+  margin: 1em 0;
+  padding: 1em .5em .5em 0;
+  font-weight: 700;
+  float: left;
+  top: -1.5em;
+  z-index: 1;
+  width: 80%;
+}
+
+#mc_embed_signup #mce-error-response {
+  display: none;
+}
+
+#mc_embed_signup #mce-success-response {
+  color: #cddc39;
+  display: none;
+}
+
+#mc-embedded-subscribe {
+  clear: both;
+  width: auto;
+  display: block;
+  margin: 1em 0 1em 5%;
+}
+
+#mc_embed_signup {
+  background: #fff;
+  clear: left;
+}
+
+/* MailChimp Embedded Footer Signup */
+
+.footer_signup {
+  width: 60%;
+  margin: 2rem 0 2rem 4.5rem;
+}
+
+.footer_signup #mc_embed_signup form {
+  display: block;
+  position: relative;
+  text-align: left;
+  padding: 3rem 2rem 2rem 3rem;
+  color: #000;
+  background-color: #fff;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 0px;
+  border: solid 2px #fff;
+}
+
+.footer_signup #mc_embed_signup input {
+  border: none;
+  border-radius: 0;
+  -webkit-appearance: none;
+  background: #444;
+  color: #fff;
+  height: 5rem;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+.footer_signup #mc_embed_signup .button {
+  display: block;
+  width: 20rem;
+  margin: 0 auto;
+  font-weight: bold;
+  font-style: normal;
+  text-transform: uppercase;
+  clear: both;
+  padding: 0;
+  background-color: #777;
+  -webkit-font-smoothing: antialiased;
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 550px) {
+  .footer_signup #mc_embed_signup .button {
+    width: 80%;
+  }
+}
+
+#mc_embed_signup .button:hover {
+  background-color: #444;
+}
+
+#mc_embed_signup .mc-field-group {
+  clear: left;
+  position: relative;
+  width: 96%;
+  padding-bottom: 3%;
+  min-height: 50px;
+}
+
+#mc_embed_signup .mc-field-group input {
+  display: block;
+  width: 100%;
+  padding: 8px 0;
+  text-indent: 2%;
+}
+
+#mc_embed_signup .clear {
+  clear: both;
+}
+
+#mc_embed_signup div#mce-responses {
+  float: left;
+  top: -1.4em;
+  padding: 0 .5em;
+  overflow: hidden;
+  width: 90%;
+  margin: 0 5%;
+  clear: both;
+}
+
+#mc_embed_signup div.response {
+  margin: 1em 0;
+  padding: 1em .5em .5em 0;
+  font-weight: 700;
+  float: left;
+  top: -1.5em;
+  z-index: 1;
+  width: 80%;
+}
+
+#mc_embed_signup #mce-error-response {
+  display: none;
+}
+
+#mc_embed_signup #mce-success-response {
+  color: #cddc39;
+  display: none;
+}
+
+#mc-embedded-subscribe {
+  clear: both;
+  width: auto;
+  display: block;
+  margin: 1em 0 1em 5%;
+}
+
+#mc_embed_signup {
+  background: #fff;
+  clear: left;
+}
+
+/*** uncss> filename: css/slick.css ***/
+
+/* Slider */
+

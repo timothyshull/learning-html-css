@@ -1,0 +1,127 @@
+.social_links {
+  padding-top:2.5rem;
+  border-bottom:1px solid #a0a0a0;
+}
+
+.social_links span {
+  margin-right:1.5rem;
+}
+
+.title {
+  padding:3rem 0 3rem 0;
+}
+
+.title h1 {
+  font-size:7rem
+}
+
+.nav_links {
+  border-bottom:1px solid #a0a0a0;
+  padding-bottom:1rem;
+}
+
+.nav_links span {
+  margin-right:1.5rem;
+}
+
+.nav_links a {
+  text-decoration:none;
+  color:#000;
+  font-size: 1.8rem
+}
+
+.nav_links a:hover {
+  color:#7EB7E8
+}
+
+.body {
+  margin: 3rem 0;
+}
+
+.body h3 {
+  padding-bottom:1rem;
+}
+
+.no_font_color {
+  color:#000;
+}
+
+.no_font_color:hover {
+  color:#000;
+}
+
+.profile_pic {
+  width:75%;
+  margin:3rem 0 0 5rem;
+}
+
+.footer {
+/*  position: absolute;*/
+  border-top:1px solid #a0a0a0;
+  padding:1rem 0 1rem 0;
+}
+
+.copyright {
+  position:relative;
+  padding:0;
+  margin:0;
+  font-size:1.25rem;
+  color:#a0a0a0;
+  font-weight:normal;
+  padding-top:0;
+}
+
+img.social_svg {
+  float:right;
+  width:4%;
+  padding-left:1rem;
+}
+
+/*.resume_intro {
+  margin: .5rem 0 3rem
+}*/
+
+.resume_intro p {
+  text-align:justify;
+  margin-bottom: 1.5rem
+}
+
+.resume_category {
+  border-bottom: 1px solid #a0a0a0;
+  margin-bottom: 1rem
+}
+
+.resume_group {
+  margin: 2rem 0 2.5rem 0
+}
+
+.activity_heading {
+  margin: 1rem 0 1rem
+}
+
+.resume_download a {
+  text-decoration: none;
+}
+
+.three.columns.corrected { 
+width:25%;
+margin:0
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.no_deco {
+  text-decoration: none;
+  color:#000;
+}
+
+.projects_nav {
+  margin-bottom: 2.5rem;
+}
+
+.nav_player {
+  margin-top: 4rem;
+}

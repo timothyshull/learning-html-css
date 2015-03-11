@@ -1,0 +1,1 @@
+window.addEventListener("scroll",function(){"use strict";var t=document.getElementById("title_bar"),e=document.body,i=document.getElementById("main_nav"),n=t.getBoundingClientRect().height,l=-e.getBoundingClientRect().top,o=n>l;o?(t.style.visiblity="visible",i.style.position="relative"):(t.style.visiblity="hidden",i.style.position="fixed",i.style.top="0")});

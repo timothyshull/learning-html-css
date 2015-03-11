@@ -1,0 +1,527 @@
+/* -----------------------------------------------------------------------
+
+reset.css
+Copyright (c) 2007 - 2010 blueprintcss.org
+
+Permission is hereby granted, free of charge, to any person
+obtaining a copy of this software and associated documentation
+files (the "Software"), to deal in the Software without
+restriction, including without limitation the rights to use,
+copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following
+conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
+----------------------------------------------------------------------- */
+html {margin:0;padding:0;border:0;}
+body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, nav, section {margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure, dialog, footer, header, hgroup, menu, nav, section {display:block;}
+body {line-height:1.5;background:white;}
+table {border-collapse:separate;border-spacing:0;}
+caption, th, td {text-align:left;font-weight:normal;float:none !important;}
+table, th, td {vertical-align:middle;}
+blockquote:before, blockquote:after, q:before, q:after {content:'';}
+blockquote, q {quotes:"" "";}
+a img {border:none;}
+
+
+/* Stylesheet Begins */
+@-webkit-keyframes glow {
+  from {
+    height: 0;
+    width: 0;
+    padding: 0px;
+    opacity: 1;
+  }
+  to {
+    padding: 8px;
+    opacity: 0;
+  }
+}
+
+body {
+  color: #111;
+  background: #fcfcfc;
+  font: 0.95em/1.5em "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", Georgia, serif;
+  padding: 0 1em 3em;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+}
+
+code {
+  font: 11px monospace;
+}
+
+dt {
+  font-family: "museo-sans-1", "museo-sans-2", "Helvetica Neue", sans-serif;
+  margin-top: 1em;
+  text-shadow: 0 1px 0 white;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+dd {
+  margin-left: 2em;
+}
+
+dd time {
+  font-size: 0.85em;
+  text-transform: uppercase;
+}
+
+h1, h2, h3 {
+  color: #4057A7;
+  font-family: "museo-sans-1", "museo-sans-2", "Helvetica Neue", sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  word-spacing: 1px;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: 300;
+  margin: 1.83em 0 0.33em;
+}
+
+h3 {
+  font-size: 1.25em;
+  font-weight: 300;
+  letter-spacing: 0;
+  margin: 0 0 0.33em 0;  
+  text-transform: none;
+  word-spacing: 0;
+}
+
+hr {
+  height: 0;
+  margin: 2em 0;
+  border-bottom: 1px dashed white;
+  border-top: 1px dashed #777;
+}
+
+header {
+  font-size: 0.9em;
+  line-height: 2em;
+  margin-top: 2em;
+  text-shadow: 0 1px 0 white;
+}
+
+header figure {
+  display: inline-block;
+  padding: 1em 0;
+  position: relative;
+}
+
+header figure img {
+  background: #fcfcfc;
+  border: 5px solid #fcfcfc;
+  box-shadow: 0 0 10px #999;
+  -moz-box-shadow: 0 0 10px #999;
+  -webkit-box-shadow: 0 0 10px #999;
+  display: block;
+  padding-bottom: 2em;
+  -webkit-transform:rotate(-2deg);
+}
+
+header figure figcaption {
+  display: block;
+  font-family: "Marker Felt", "Courier New", monospace;
+  left: 0;
+  margin: auto;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  text-overflow: ellipsis;
+  text-shadow: 0 1px 0 white;
+  white-space: nowrap;
+  bottom: 1.5em;
+  -webkit-transform:rotate(-2deg);
+  width: 120px;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+p {
+  margin: 1em 0;
+}
+
+p:nth-of-type(1) {
+  margin-top: 0.33em;
+}
+
+#content {
+  display: table;
+  margin: 0 auto;
+  width: 780px;
+}
+
+#content>header {
+  display: table-cell;
+  margin-right: 1em;
+  padding-right: 1em;
+  padding-top: 3em;
+  width: 260px;
+}
+
+#content>#main {
+  display: table-cell;
+}
+
+#other ul li {
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 0.5em;
+}
+
+#content a img.icon {
+  background: #eee;
+  border: none;
+  -box-shadow: 0 1px 0 white;
+  -moz-box-shadow: 0 1px 0 white;
+  -webkit-box-shadow: 0 0 1px #49568A;
+  -webkit-transition:-webkit-box-shadow 0.15s linear;  
+}
+
+#content a img.icon:hover {
+  background: #aaa;
+  -webkit-box-shadow: 0 0 5px #49568A;
+}
+
+.info {
+  font-size: 0.9em;
+  margin: 0.5em;
+}
+
+.info .field,
+.info .value {
+  color: #0a111f;
+  background: #e0e0e0;
+  border: none;
+  box-shadow: 0 -1px 0 #ccc;
+  -moz-box-shadow: 0 -1px 0 #ccc;
+  -webkit-box-shadow: 0 -1px 0 #ccc;
+  display: inline-block;
+  font-family: "museo-sans-1", "museo-sans-2", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.info .field {
+  border-radius: 20px 0 0 20px;
+  -moz-border-radius: 20px 0 0 20px;
+  -webkit-border-radius: 20px 0 0 20px;
+  font-weight: 300;
+  padding-left: 1em;
+  padding-right: 0.5em;
+  text-align: right;  
+  width: 4em;
+}
+
+.info .value {
+  border-radius: 0 20px 20px 0;
+  -moz-border-radius: 0 20px 20px 0;
+  -webkit-border-radius: 0 20px 20px 0;
+  padding-left: 0.5em;
+  padding-right: 1em;
+}
+
+.info a.value {
+  text-decoration: none;
+}
+
+.secondary {
+  color: #666;
+}
+
+.hotspot {
+  position: relative;
+}
+
+.hotspot-spot {
+  display: inline-block;
+  height: 30px;
+  position: absolute;
+  width: 30px;
+}
+
+.hotspot-spotlink {
+  background: #4057A7;
+  border: 1px solid transparent;
+  border-radius: 16px;
+  -moz-border-radius: 16px;
+  -webkit-border-radius: 16px;
+  bottom: 0;
+  box-shadow: 0 0 3px white;
+  color: #4057A7;
+  display: block;
+  height: 12px;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  text-align: -30000px;
+  top: 0;
+  width: 12px;
+}
+
+.hotspot-spotglow {
+  border: 3px solid #4057A7;
+  border-radius: 30px;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  bottom: 0;
+  display: block;
+  height: 10px;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  text-align: -30000px;
+  top: 0;
+  width: 10px;
+  -webkit-animation: glow 1.5s ease-in infinite;
+}
+
+.hotspot-spot.seen .hotspot-spotlink {
+  opacity: 0.6;
+  border: 1px solid black;
+  -webkit-transition: opacity 0.5s, border 0.5s;
+}
+
+.hotspot-spot.seen .hotspot-spotglow {
+  display: none;
+  -webkit-animation: none;
+}
+
+.hotspot-window {
+  background: white;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#fefefe), to(#eee));
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;    
+  box-shadow: 0 0 5px #666;
+  -moz-box-shadow: 0 0 5px #666;
+  -webkit-box-shadow: 0 0 5px #666;
+  color: black;
+  padding: 0.75em;
+  position: absolute;
+}
+
+.hotspot-window:before {
+  border-color: #aaa transparent;
+  border-style: solid;
+  border-width: 11px 11px 0 11px;
+  bottom: -11px;
+  color: transparent;
+  content: '.';
+  height: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  text-align: -30000px;
+  width: 0;
+}
+
+.hotspot-window:after {
+  border-color: #eee transparent;
+  border-style: solid;
+  border-width: 10px 10px 0 10px;
+  bottom: -10px;
+  color: transparent;
+  content: '.';
+  height: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  text-align: -30000px;
+  width: 0;
+}
+
+.whatfont-screenshot {
+  background: #fcfcfc;
+  border: 10px solid #fcfcfc;
+  box-shadow: 0 0 2px #999;
+  -moz-box-shadow: 0 0 2px #999;
+  -webkit-box-shadow: 0 0 2px #999;
+}
+
+#whatfont-install-methods h3 {
+  display: inline-block;
+}
+
+#whatfont-install-methods h3 a{
+  color: #9299BC;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 1em;
+  text-decoration: none;
+}
+
+#whatfont-install-methods h3 a:hover,
+#whatfont-install-methods h3 a.current {
+  color: #4057A7;
+}
+
+#whatfont-install-methods h3:first-child a {
+  border:none;
+  padding-left: 0;
+}
+
+#whatfont-install-methods h3:last-child a {
+  padding-right: 0;
+}
+
+ol.whatfont-how-to {
+  list-style-type: none;
+  margin: 1em 0;
+}
+
+.whatfont-install p {
+  margin: 0;
+}
+
+.whatfont-install-wrapper {
+  background: #ddd;
+  display: inline-block;
+  border-radius: 5px     
+  -moz-border-radius: 5px;   
+  -webkit-border-radius: 5px;
+  box-shadow: inset 0 1px 0 #aaa; 
+  -moz-box-shadow: inset 0 1px 0 #aaa; 
+  -webkit-box-shadow: inset 0 1px 0 #aaa; 
+  width: 95%;
+  padding: 1em;  
+}
+
+.whatfont-install-wrapper p {
+  margin: 0;
+}
+
+.whatfont-install-wrapper section {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #aaa;
+  padding-bottom: 1em;
+  padding-top: 0.5em;  
+}
+
+.whatfont-install-wrapper section:first-child {
+  border-top: none;
+  padding-top: 0;
+}
+
+.whatfont-install-wrapper section:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.whatfont-install-install {
+  border-bottom: 1px solid #aaa;
+  position: relative;  
+}
+
+.whatfont-install-compatibility {
+  color: #333;
+  font-size: 0.95em;
+}
+
+.whatfont-install-install .instruction {
+  margin-left: 7.5em;
+  -webkit-transition: color 0.2s linear;
+}
+
+.whatfont-install-install .instruction.main {
+  font-weight: bold;
+}
+
+.whatfont-install-install .instruction.prompt {
+  color: #2759D0;
+}
+
+#whatfont-bookmarklet {
+  background: black;
+  background: rgba(0,0,0,0.8);
+  border: 1px solid black;
+  color: white;
+  display: inline-block;
+  font-weight: bold;
+  height: 1.5em;
+  line-height: 1.5em;
+  padding: 0.5em 0.75em;
+  position: absolute;
+  text-decoration: none;
+  text-shadow: 0 -1px 0 black;
+  top: 0.4em;
+  border-radius: 5px        
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;  
+  box-shadow: inset 0 1px 0 #aaa; 
+  -moz-box-shadow: inset 0 1px 0 #aaa; 
+  -webkit-box-shadow: inset 0 1px 0 #aaa; 
+}
+
+#whatfont-bookmarklet:active {
+  box-shadow: inset 0 -1px 0 #aaa; 
+  -moz-box-shadow: inset 0 -1px 0 #aaa; 
+  -webkit-box-shadow: inset 0 -1px 0 #aaa;  
+}
+
+ul#whatfont-hist {
+  list-style: none; 
+}
+
+ul#whatfont-hist time {
+  color: #666;
+  font-size: 0.85em;
+}
+
+#test-field figure {
+  background-color: #ffffcc;
+  background-image: -webkit-gradient(linear, 0 0, 100% 100%, from(rgba(0, 0, 0, 0)), color-stop(0.93, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.08)));
+  border-color: #fafafa #eee #ddd #eee;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  margin: 1em 0;
+  padding: 0.5em 1em;
+}
+
+#test-field figure p {
+  font-size: 1.25em;
+  margin: 0.5em 0;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+#test-field figure figcaption {
+  color: #555;
+}
+
+#test-serif {
+  font-family: Palatino, Georgia, serif;
+}
+
+#test-sans-serif {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+#test-script {
+  font-family: "bello-pro-1", "bello-pro-2", sans-serif;
+}

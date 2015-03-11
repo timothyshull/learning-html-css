@@ -1,0 +1,3 @@
+###HTML & CSS Learning
+
+Let me explain this collection of projects...I started learning Ruby on Rails first. Then I realized that there was a lot of mystery behind the scenes so I started re-learning HTML and CSS by creating small projects with very specific goals. Thats what these are.  Generally, while learning some of these development ideas, if I had a question I would just set up a small project and start to experiment to put the pieces together from the ground up. I know some of this is remedial, but I don't want to miss out on the details as I grow.  

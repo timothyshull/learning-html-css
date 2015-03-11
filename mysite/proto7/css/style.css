@@ -1,0 +1,84 @@
+.social_links {
+  padding-top:2.5rem;
+  border-bottom:1px solid #a0a0a0;
+}
+
+.social_links span {
+  margin-right:1.5rem;
+}
+
+.social_links a {
+  text-decoration:none;
+  color:#000;
+}
+
+.title {
+  padding:3rem 0 3rem 0;
+}
+
+.title h1 {
+  font-size:7rem
+}
+
+.nav_links {
+  border-bottom:1px solid #a0a0a0;
+  padding-bottom:1rem;
+}
+
+.nav_links span {
+  margin-right:1.5rem;
+}
+
+.nav_links a {
+  text-decoration:none;
+  color:#000;
+  font-size: 1.8rem
+}
+
+.nav_links a:hover {
+  color:#7EB7E8
+}
+
+.body {
+  margin: 3rem 0;
+}
+
+.body h3 {
+  padding-bottom:1rem;
+}
+
+.noFontColor {
+  color:#000;
+}
+
+.noFontColor:hover {
+  color:#000;
+}
+
+.profilePic {
+  width:75%;
+  margin:3rem 0 0 5rem;
+}
+
+.footer {
+  position: absolute;
+  border-top:1px solid #a0a0a0;
+  padding:1rem 0 1rem 0;
+}
+
+.copyright {
+  position:relative;
+  padding:0;
+  margin:0;
+  font-size:1.25rem;
+  color:#a0a0a0;
+  font-weight:normal;
+  padding-top:0;
+}
+
+img.social_svg {
+  float:right;
+  width:4%;
+  padding-left:1rem;
+}
+

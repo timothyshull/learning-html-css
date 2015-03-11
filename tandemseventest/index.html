@@ -1,0 +1,48 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>t7_test</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="Form Test" name="description">
+  <meta content="HTML,CSS,JavaScript,AJAX" name="keywords">
+  <meta content="Timothy Shull Jr" name="author">
+  <link href="style.css" rel="stylesheet">
+  <script src="script.js"></script><!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+  <div class="formbox">
+    <form id="formSubmit" name="formSubmit">
+      
+			<label for="firstName">First Name:</label>
+			<input autofocus="" id="firstName" name="firstName" type="text">
+      <div class="container">
+        <div class="alert" data-alert="Required Field" id="firstNameAlert"></div>
+      </div>
+			
+			<label for="lastName">Last Name:</label>
+			<input id="lastName" name="lastName" type="text"> 
+			
+			<label for="username">Username:</label>
+			<input id="username" name="username" type="text"> 
+			
+			<label for="password">Password:</label>
+			<input id="password" name="password" type="password">
+      <div class="container">
+        <div class="alert" data-alert="Must contain upper case character" id="passwordAlert"></div>
+      </div>
+
+      <div class="container">
+        <div class="tooltip" data-tooltip="The password must contain a minimum of one lower case character, one upper case character, and one digit or special character."><a href="#">?</a></div>
+      </div>
+			
+			<button id="submitButton" type="submit">sign-up</button>
+			
+    </form>
+  </div>
+</body>
+</html>

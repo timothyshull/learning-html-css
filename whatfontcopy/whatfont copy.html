@@ -1,0 +1,367 @@
+<!doctype html>
+<!-- Hi there! -->
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>WhatFont Tool - The easiest way to inspect fonts in webpages &laquo; Chengyin Liu</title>
+		<link rel="stylesheet" href="style.min.css" />
+		<link rel="stylesheet" href="whatfont_intro.min.css" />
+		<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<script src="http://use.typekit.com/uvk5xzl.js"></script>
+		<script>try{Typekit.load();}catch(e){}</script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+	</head>
+	<body id="whatfont">
+		<section id="content">
+			<!-- Begin of Left -->
+			<header>
+				<h1>WhatFont<br />Tool</h1>
+				
+				<section>
+					<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fchengyinliu.com%2Fwhatfont.html&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;font&amp;colorscheme=light&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;" allowTransparency="true"></iframe>
+					<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="chengyinliu">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+				</section>
+				<p>
+					<a href="http://www.twitter.com/chengyinliu"><img class="icon" src="http://twitter-badges.s3.amazonaws.com/follow_me-a.png" alt="Follow chengyinliu on Twitter"/></a>
+				</p>
+				<p class="disclaimer">
+					* WhatFont is not affiliated with MyFonts and/or the <a href="http://new.myfonts.com/WhatTheFont/" target="_blank">WhatTheFont service</a>. 
+				</p>
+			</header>
+			<!-- End of Left -->
+			
+			<!-- Begin of Right -->
+			<section id="main">
+				<p><a href="index.html">&larr; Back to Chengyin's main page</a></p>
+				
+				<!-- Begin of Intro -->
+				<article id="whatfont-intro">
+					<header>
+						<h2>What is this for?</h2>
+					</header>
+					<p>What is the easiest way to find out the fonts used in a webpage? Firebug or Webkit Inspector? No, that's too complicated. It should be just a click away. </p>
+					<p>Hence I wrote WhatFont, with which you can easily get font information about the text you are hovering on.</p>
+					<p>To embrace the new web font era, WhatFont also detects services used for serving the font. Now supports <a href="http://typekit.com">Typekit</a> and <a href="http://code.google.com/apis/webfonts/">Google Font API</a>.</p>
+					<section id="whatfont-features" class="hotspot">
+						<img src="whatfont.png" alt="A screenshot showing WhatFont in action." class="whatfont-screenshot" />
+					</section>
+				</article>
+				<!-- End of Intro -->
+				
+				<!-- Begin of Install -->
+				<article id="whatfont-install">
+					<header>
+						<h2>How to use it?</h2>
+						<section id="whatfont-install-methods">
+							<h3><a href="#whatfont-install-bookmarklet" id="whatfont-install-method-bookmarklet">Bookmarklet</a></h3>
+							<h3><a href="#whatfont-install-chrome" id="whatfont-install-method-chrome">Chrome Ext.</a></h3>
+							<h3><a href="#whatfont-install-safari" id="whatfont-install-method-safari">Safari Ext.</a></h3>
+						</section>
+					</header>
+					
+					<!-- Install: Begin of Bookmarklet -->
+					<section id="whatfont-install-bookmarklet" class="whatfont-install">
+						<section class="whatfont-install-wrapper">
+							<section class="whatfont-install-install">
+								<a href="javascript:(function(){var d=document,s=d.createElement('scr'+'ipt'),b=d.body,l=d.location;s.setAttribute('src','http://chengyinliu.com/wf.js?o='+encodeURIComponent(l.href)+'&t='+(new Date().getTime()));b.appendChild(s)})();" title="WhatFont" id="whatfont-bookmarklet" class="whatfont-button">WhatFont</a>
+								<p class="instruction main" id="whatfont-install-bookmarklet-instruction">&larr; Drag this to your bookmark bar to install</p>
+							</section>
+							<section class="whatfont-install-use">
+								<p>On any webpage, click your WhatFont bookmark to use the tool.</p>
+							</section>
+							<section class="whatfont-install-compatibility">
+								<p>Full support: Firefox 3.6+, Chrome 9+, Safari 4+, Internet Explorer 9.</p>
+								<p>Limited support: Internet Explorer 8.</p>
+							</section>
+						</section>
+					</section>
+					<!-- Install: End of Bookmarklet -->
+					
+					<!-- Install: Begin of Chrome -->
+					<section id="whatfont-install-chrome" class="whatfont-install">
+						<section class="whatfont-install-wrapper">
+							<section class="whatfont-install-install">
+								<p><a href="https://chrome.google.com/webstore/detail/jabopobgcpjmedljpbcaablpmlmfcogm"><img src="ChromeWebStore_Badge.png" alt="Badge for Available on Chrome Web Store" /></a></p>
+								<p>&uarr;<strong>Install</strong> the extension from Chrome Web Store.</p>
+							</section>
+							<section class="whatfont-install-use">
+								<p>On any webpage, click WhatFont button to use the tool.</p>
+							</section>
+						</section>
+					</section>
+					<!-- Install: End of Chrome -->
+					
+					<!-- Install: Begin of Safari -->
+					<section id="whatfont-install-safari" class="whatfont-install">
+						<section class="whatfont-install-wrapper">
+							<section class="whatfont-install-install">
+								<p><a href="/WhatFont.safariextz" title="Install WhatFont Tool as a Safari Extension" id="whatfont-safari">Download Now</a>
+								<p>After downloading, open the extension file to install.</p>
+							</section>
+							<section class="whatfont-install-use">
+								<p>On any webpage, click WhatFont button to use the tool.</p>
+							</section>
+						</section>
+					</section>
+					<!-- Install: End of Safari -->
+				</article>
+				<!-- End of Install -->
+				
+				<!-- Begin of Test Field -->
+				<article>
+					<header>
+						<h2>Test field</h2>
+					</header>
+					
+          <!-- <section>
+            <a href="javascript:(function(){var d=document,s=d.createElement('scr'+'ipt'),b=d.body,l=d.location;s.setAttribute('src','http://chengyinliu.com/wf.js?o='+encodeURIComponent(l.href)+'&t='+(new Date().getTime()));b.appendChild(s)})();" title="WhatFont" class="whatfont-button">Activate WhatFont</a>
+          </section> -->
+					
+					<section id="test-field">
+						<figure>
+							<p id="test-serif">The quick brown fox jumps over the lazy dog.</p>
+							<figcaption>
+								<code>font-family: Palatino, Georgia, serif;</code>
+							</figcaption>
+						</figure>
+						<figure>
+							<p id="test-sans-serif">The quick brown fox jumps over the lazy dog.</p>
+							<figcaption><code>font-family: "Helvetica Neue", Arial, sans-serif;</code></figcaption>
+						</figure>
+						<figure>
+							<p id="test-script">The quick brown fox jumps over the lazy dog.</p>
+							<figcaption><code>font-family: "bello-pro-1", "bello-pro-2", sans-serif;</code></figcaption>
+						</figure>
+					</section>
+				</article>
+				<!-- End of Test Field -->
+				
+				<!-- Begin of Feedback -->
+				<article>
+					<header>
+						<h2>Feedback</h2>
+					</header>
+					<p class="info"><span class="field">Email</span> <a class="value" href="mailto:chengyin.liu@gmail.com">chengyin.liu@gmail.com</a>
+					<p class="info"><span class="field">Twitter</span> <a class="value" href="http://twitter.com/chengyinliu">@chengyinliu</a></p>	
+				</article>	
+				<!-- End of Feedback -->
+				
+				<!-- Begin of Version Hist -->
+				<article>
+					<header>
+						<h2>Changelog</h2>
+					</header>
+					<p>The tool should auto-update itself. If you do not get the newest feature, please reinstall. Minor updates for each extensions will not be logged.</p>
+					<ul id="whatfont-hist">
+					  	<li><span class="ver-no">Ver 1.6.1</span> <time datetime="2011-07-18T20:59:00-07:00">(2011-07-18)</time>
+  					    <ul>
+  					      <li>Added color detection for text.</li>
+  					    </ul>
+  					  </li>
+          	<li><span class="ver-no">Ver 1.6</span> <time datetime="2011-07-15T11:59:00-07:00">(2011-07-15)</time>
+					    <ul>
+					      <li>Added a tweet button for instant sharing through Twitter.</li>
+					      <li>Improved style reseting.</li>
+					    </ul>
+					  </li>
+					  <li><span class="ver-no">Ver 1.5</span> <time datetime="2011-07-13T17:30:00-07:00">(2011-07-13)</time>
+					    <ul>
+					      <li>Overall restyling.</li>
+					    </ul>
+					  </li>
+						<li><span class="ver-no">Ver 1.4</span> <time datetime="2011-05-18T02:30:00-05:00">(2011-05-18)</time>
+							<ul>
+								<li>Restructured the code. </li>
+								<li>Added font services detection for <a href="http://typekit.com">Typekit</a> and <a href="http://code.google.com/apis/webfonts/">Google Font API</a>.</li>
+								<li>(Chrome Extension) Fixed the toolbar button bug, the second click now exits WhatFont.</li>
+							</ul>
+						</li>
+						
+						<li><span class="ver-no">Ver 1.3.2</span> <time datetime="2011-04-20T20:00:00-05:00">(2011-04-20)</time>
+							<ul> 
+								<li>Fixed several bugs related to style reseting.</li>
+								<li>Added a prompt for &lt;img&gt; and &lt;embed&gt;.</li>
+								<li>Added an external service for &lt;img&gt;.</li>
+							</ul>
+						</li>
+						
+						<li><span class="ver-no">Ver 1.3.1</span> <time datetime="2011-04-11T17:50:00-05:00">(2011-04-11)</time> 
+							<ul>
+								<li>Fixed several bugs related to DOM to support Internet Explorer 8+. </li>												 
+							</ul>
+						</li>
+						
+						<li><span class="ver-no">Ver 1.3</span> <time datetime="2011-04-11T08:50:00-05:00">(2011-04-11)</time> 
+							<ul>
+								<li>Added a detail panel.</li> 
+								<li>Added a shortcut (ESC) for exiting. </li>						
+						 	</ul>
+						</li>
+						
+						<li><span class="ver-no">Ver 1.2</span> <time datetime="2011-04-04">(2011-04-04)</time>
+							<ul>
+								<li>Added an exit controller. </li>
+							</ul>
+						</li>
+						
+						<li><span class="ver-no">Ver 1.1</span> <time datetime="2011-04-03">(2011-04-03)</time>
+							<ul>
+								<li>Merged <a href="http://riobard.com">Riobard's</a> fork to reveal the font currently in use. </li>
+							</ul>
+						</li>
+						
+						<li><span class="ver-no">Ver 1.0</span> <time datetime="2011-02-05">(2011-02-05)</time>
+							<ul>
+								<li>Where it begins. </li>
+							</ul>
+						</li>
+					</ul>
+					<a href="#" id="whatfont-hist-more">Unfold all...</a>
+				</article>
+				<!-- End of Version Hist -->
+				
+				<!-- Begin of Credit -->
+				<article>
+					<header>
+						<h2>Credit</h2>
+					</header>
+					<p>Many thanks to <a href="http://riobard.com">Riobard</a> for the font-in-use detecting code.</p>	
+					<p>Thanks to <a href="http://www.thunderguy.com/semicolon/">Bennett McElwee</a> for the default font bug fix.</p>
+					<p>Thanks to <a href="http://twitter.com/pr0n">@pr0n</a>, <a href="http://twitter.com/hugoahlberg">@hugoahlberg</a>, <a href="http://twitter.com/zhusee2">@zhusee2</a> and Brian Majerus for helping me test.
+				</article>
+				<!-- End of Credit -->
+				
+				<!-- Begin of Source -->
+				<article>
+					<header>
+						<h2>Source</h2>
+					</header>
+					<p><a href="https://github.com/chengyin/WhatFont-Bookmarklet">Hosted on Github</a></p>
+				</article>
+				<!-- End of Source -->
+				
+				<!-- Begin of External -->
+				<article id="whatfont-external">
+					<header>
+						<h2>External Services</h2>
+					</header>
+					<p>The external links included in WhatFont are being provided as a convenience; they do not constitute an endorsement or an approval by me.</p>
+				</article>
+				<!-- End of External -->
+				
+				<!-- Begin of Privacy -->
+				<article id="whatfont-privacy">
+					<header>
+						<h2>Privacy</h2>
+					</header>
+					<p>No personal information will be collected by this script.</p>
+				</article>			
+				<!-- End of Privacy -->
+			</section>
+		</section>
+	</body>
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-3424225-1']);
+		_gaq.push(['_setDomainName', 'none']);
+		_gaq.push(['_setAllowLinker', true]);
+		_gaq.push(['_trackPageview']);
+
+		(function () {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+		
+		(function () {
+			$("#whatfont-bookmarklet").click(function () {
+				$("#whatfont-install-bookmarklet-instruction").addClass("prompt");
+			});
+			
+			$("#whatfont-hist>li").hide();
+			$($("#whatfont-hist>li")[0]).show();
+			
+			$("#whatfont-hist-more").click(function(e) {
+				$("#whatfont-hist li").show();
+				$(this).hide();
+				e.preventDefault();
+				return false;
+			});
+		})();
+		
+		(function () {
+			var ua = navigator.userAgent.toLowerCase(), platform, p = ['chrome', 'safari'], i;
+			
+			for (i = 0; i < p.length; i++) {
+				if (ua.indexOf(p[i]) > -1) {
+					platform = p[i];
+					break;
+				}
+			}
+			
+			if (!platform) {
+				platform = 'bookmarklet';
+			}
+			
+			$(".whatfont-install").hide();
+			$("#whatfont-install-" + platform).show();
+			$("#whatfont-install-method-" + platform).addClass("current");
+			
+			$("#whatfont-install-methods a").click(function (e) {
+				var that = this, current;
+				if (!$(this).hasClass('current')) {
+  				current = $($("#whatfont-install-methods a.current").attr("href"));
+  				$("#whatfont-install-methods a").removeClass("current");
+  				$(current).slideUp(function () {
+  					$($(that).attr("href")).slideDown();
+  					$(that).addClass("current");
+  				});
+        }
+        
+				e.preventDefault();
+				return false;
+			});
+		})();
+		
+		(function () {
+			var hotspot = function (id, top, left, cont) {
+				var container = $("#" + id), spot, spotlink, spotglow, w, spottop, spotleft, wtop, wleft;
+				if (!container)
+					return;
+				
+				w = $("<article></article>")
+				  .addClass("hotspot-window")
+				  .html(cont)
+				  .css('width', '240px')
+				  .hide()
+				  .appendTo(container);
+				spot = $("<div></div>").addClass("hotspot-spot").appendTo(container);
+				spotlink = $("<a></a>").addClass("hotspot-spotlink").appendTo(spot);
+				spotglow = $("<div></div>").addClass("hotspot-spotglow").appendTo(spot);
+				
+				spottop = top - spot.height() / 2;
+				spotleft = left - spot.width() / 2;
+				wtop = top - spot.height() - w.outerHeight();
+				wleft = left - w.outerWidth() / 2;
+				spot.css("top", spottop);
+				spot.css("left", spotleft);
+				w.css("top", wtop);
+				w.css("left", wleft);
+				
+				spot.hover(function () {
+					w.fadeIn('fast');
+				}, function () {
+					w.fadeOut('fast');
+					$(this).addClass("seen");
+				});
+			};
+			
+			hotspot("whatfont-features", 50, 135, "Font name? Just <strong>hover</strong> on the text. <br /> (You can't take my cursor though.)");
+			hotspot("whatfont-features", 145, 183, "Want to know more? <br /><strong>Click</strong> to pin a detail panel.");
+			hotspot("whatfont-features", 350, 420, "Want the font? <br/> Web font services detection supports Typekit and Google Font API.")
+			hotspot("whatfont-features", 380, 420, "Want to share your discovery? <br/> Tweet directly from WhatFont.")
+		})();
+	</script>	 
+</html>
